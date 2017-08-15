@@ -14,7 +14,7 @@ def overtime_pay_weekend(salary, overtime):
 def overtime_pay_workday(salary, overtime):
     return overtime_pay(salary, overtime, ratio=1.5)
 
-def overtime_pay_holiday(salary, overtime):
+def overtime_pay_statutory(salary, overtime):
     return overtime_pay(salary, overtime, ratio=3)
 
 def tax(income2tax):
